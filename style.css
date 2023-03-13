@@ -12,22 +12,21 @@ nav {
     padding-right: 25px;
 }
 nav img {
-    height: 60px;
+    /* height: 60px; */
     width: 60px;
 }
 nav li {
-    list-style-type: none;
     display: flex; 
 }
 nav li a {
     text-decoration: none;
     color: rgb(255, 255, 255); 
-    
 }
 nav li a:hover {
     color: rgb(30, 215, 96);
 }
-nav ul {
+ul {
     display: flex;
+    list-style-type: none;
     gap: 15px;
 }
