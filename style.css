@@ -1,3 +1,4 @@
+/* css code goes here */
 body {
     margin: 0;
     background-color: rgba(25, 20, 20);
@@ -29,4 +30,39 @@ ul {
     display: flex;
     list-style-type: none;
     gap: 15px;
+}
+
+/* PART  2*/
+#download {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    background-color: rgba(25, 20, 20);
+    font-family: 'Poppins', sans-serif;
+}
+#download h1 {
+    font-weight: 700;
+    line-height: 2;
+}
+#download h2 {
+    font-weight: 500;
+    line-height: 3;
+} 
+#download section button {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(255, 255, 255);
+    padding: 12px;
+    margin-bottom: 35px;
+    font-weight: 500;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#download button:hover {
+    scale: 1.02;
+}
+@media only screen and (max-width: 595px) and (min-width: 132px) {
+    #download button {
+        width: 100%;
+    }
 }
