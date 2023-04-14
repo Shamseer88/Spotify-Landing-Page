@@ -168,3 +168,79 @@ article button:hover {
     display: inline-block;
     }
 }
+
+/*---------- PART 5 ----------*/
+#students-offer {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+}
+
+#students-offer button {
+    background-color: rgb(255, 255, 255);
+    padding: 12px 40px;
+    font-family: inherit;
+    color: rgb(25, 20, 20);
+    font-weight: 700;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#students-offer button:hover {
+    transform: scale(1.02);
+}
+
+form {
+    margin-top: 20px;
+    border: 1px solid rgb(170, 170, 170);
+    border-radius: 10px;
+    padding: 25px;
+    text-align: left;
+}
+
+#email {
+    font-family: inherit;
+    padding: 5px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+input#first-name, input#last-name {
+    font-family: inherit;
+    padding: 5px;
+    width: 46%;
+}
+
+@media (width <= 650px) {
+    input#first-name, input#last-name {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+}
+form p {
+    margin-bottom: 0;
+}
+
+#country, #college-university {
+    font-family: inherit;
+    padding: 5px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+#contact-number {
+    display: block;
+    font-family: inherit;
+    padding: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#consent-checkbox {
+    cursor: pointer;
+}
+
+form button {
+    display: block;
+    margin-top: 10px;
+}
