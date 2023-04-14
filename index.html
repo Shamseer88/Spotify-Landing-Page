@@ -10,24 +10,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify</title>
 </head>
-<body>
+<body>    
     <nav>
-        <a href="/"><img src="https://developer.spotify.com/assets/branding-guidelines/icon3@2x.png" alt="spotify-logo"></a>
+        <a href="/">
+            <img src="https://developer.spotify.com/assets/branding-guidelines/icon3@2x.png" alt="spotify-logo" />
+        </a>
         <ul>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Premium</a></li>
-            <li><a href="#">Download</a></li>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+            <li>
+                <a href="#">Premium</a>
+            </li>
+            <li>
+                <a href="#">Download</a>
+            </li>
         </ul>
     </nav>
     <main id="download">
         <h1>Introducing Premium Mini</h1>
         <h2>₹7 for 1 day. ₹25 for 1 week.</h2>
         <section>
-            <button><i class="fa-brands fa-google-play"></i>DOWNLOAD</button>
-            <button><i class="fa-brands fa-apple"></i>DOWNLOAD</button>
+            <button>
+                <i class="fa-brands fa-google-play fa-xl"></i> 
+                DOWNLOAD
+            </button>
+            <button>
+                <i class="fa-brands fa-apple fa-xl"></i>
+                DOWNLOAD
+            </button>
         </section>
     </main>
-    <section id = "difference-table">
+    <section id="difference-table">
         <h1>Experience the difference</h1>
         <table>
             <tr>
@@ -67,16 +81,16 @@
             </tr>
         </table>
         <section>
-            <h1>Get 3 months of Premium for free</h1>
+            <h1>Get 3 months of Premium for free.</h1>
             <button>GET 3 MONTHS FOR ₹0</button>
         </section>
     </section>
-    <section id = "premium">
+    <section id="premium">
         <section>
             <h2>Pick your Premium</h2>
-            <p>Listen without limits on your phone, speaker, and other devices</p>
+            <p>Listen without limits on your phone, speaker, and other devices.</p>
         </section>
-        <section>
+        <section class="price-cards">
             <article>
                 <section class="card-header">
                     <span>One-time plans available</span>
@@ -89,7 +103,6 @@
                         <li>Ad-free music listening on mobile</li>
                         <li>Group Session</li>
                         <li>Download 30 songs on 1 mobile device</li>
-
                     </ol>
                     <button>VIEW PLANS</button>
                 </section>
@@ -104,7 +117,7 @@
                 </section>
                 <section class="card-body">
                     <ol>
-                        <li>Ad-free music listening on mobile</li>
+                        <li>Ad-free music listening</li>
                         <li>Group Session</li>
                         <li>Download 10k songs/device on 5 devices</li>
                     </ol>
@@ -117,14 +130,14 @@
                     <span>One-time plans available</span>
                     <h3>Duo</h3>
                     <p>₹149/month after offer period</p>
-                    <p>2 account</p>
+                    <p>2 accounts</p>
                 </section>
                 <section class="card-body">
                     <ol>
                         <li>For couples who live together</li>
                         <li>Ad-free music listening on mobile</li>
                         <li>Group Session</li>
-                        <li>Download 10k songs/device, on 5 devices per account</li>
+                        <li>Download 10k songs/devices, on 5 device per account</li>
                     </ol>
                     <button>VIEW PLANS</button>
                 </section>
@@ -150,17 +163,16 @@
             </article>
         </section>
     </section>
-    <!-- PART 5 -->
     <section id="students-offer">
         <h3>Special discount for eligible students in university</h3>
         <button>LEARN MORE</button>
         <form>
-            <input type="email" name="email" placeholder="Email address" required autocomplete="off">
-            <input type="text" name="first-name" placeholder="First Name" required autocomplete="off">
-            <input type="text" name="last-name" placeholder="Last Name" required autocomplete="off">
-            <p>Where do you go to school</p>
+            <input type="email" name="email" id="email" placeholder="Email address" required autocomplete="off" />
+            <input type="text" name="first-name" id="first-name" placeholder="First Name" required required autocomplete="off" />
+            <input type="text" name="last-name" id="last-name" placeholder="Last Name" required required autocomplete="off" />
+            <p>Where do you go to school?</p>
             <label for="country">Country</label>
-            <select id="country" name="country" required>
+            <select name="country" id="country" required>
                 <option value="india">India</option>
                 <option value="spain">Spain</option>
                 <option value="germany">Germany</option>
@@ -168,26 +180,33 @@
                 <option value="france">France</option>
             </select>
             <label for="college-university">Name of college/ university</label>
-            <select id="college-university" name="college-university" required>
+            <select name="college-university" id="college-university" required>
                 <option value="indian-school-business">Indian School of Business</option>
                 <option value="delhi-university">Delhi University</option>
                 <option value="iit">IIT</option>
-                <option value="bits">Bits</option>
+                <option value="bits">BITS</option>
                 <option value="imi">IMI</option>
             </select>
             <label for="contact-number">Contact Number</label>
-            <input type="number" name="contact-number" placeholder="Contact Number" required autocomplete="off">
-            <input type="checkbox" name="consent-checkbox" required>
+            <input type="number" name="contact-number" id="contact-number" placeholder="Contact Number" required autocomplete="off" />
+            <input type="checkbox" name="consent-checkbox" id="consent-checkbox" required/>
             <span>By checking this box and clicking "Submit", you consent to use information for verification.</span>
             <button type="submit">SUBMIT</button>
         </form>
     </section>
-    <!-- Part 6 -->
     <footer id="contact">
-        <a href="#"><i class="fa-brands fa-twitter"></i></a>
-        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-        <a href="#"><i class="fa-brands fa-facebook"></i></a>
-        <a href="#"><i class="fa-solid fa-envelope"></i></a>
+        <a href="#">
+            <i class="fa-brands fa-twitter"></i>
+        </a>
+        <a href="#">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="#">
+            <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="#">
+            <i class="fa-solid fa-envelope"></i>
+        </a>
         <p>© Copyright 2022 Spotify</p>
     </footer>
 </body>
